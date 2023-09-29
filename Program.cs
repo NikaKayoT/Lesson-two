@@ -24,19 +24,19 @@
 
 
 //Третья цифра есть или нет
-Console.Write("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-if (num < 0)
-{
-    num *= -1;
-}
-while (num > 999)
-{
-    num /= 10;
-}
-if (num < 100)
-{
-    Console.WriteLine("Третьей цифры нет");
-}
-else Console.WriteLine(num % 10);
-Console.ReadKey();
+//Console.Write("Введите число: ");
+//int num = Convert.ToInt32(Console.ReadLine());
+//if (num < 0)
+//{
+//    num *= -1;
+//}
+//while (num > 999)
+//{
+//    num /= 10;
+//}
+//if (num < 100)
+//{
+//    Console.WriteLine("Третьей цифры нет");
+//}
+//else Console.WriteLine(num % 10);
+//Console.ReadKey();
